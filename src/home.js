@@ -2,8 +2,9 @@ import kitchenImg from "./images/kitchen.jpg"
 
 export function populateHome() {
     
-    // Get content div
+    // Get and clear content div
     const mainContent = document.getElementById("content")
+    mainContent.innerHTML = "";
 
     // Create content grid
     const contentGrid = document.createElement("div");
