@@ -2,6 +2,7 @@ import "./style.css"
 
 import { populateHome } from "./home"
 import { populateMenu } from "./menu"
+import { populateAbout } from "./about"
 
 // Initial paage render
 populateHome();
@@ -14,4 +15,4 @@ const aboutBtn = document.getElementById("about");
 // Configure nav buttons
 homeBtn.addEventListener("click", populateHome);
 menuBtn.addEventListener("click", populateMenu);
-// aboutBtn.addEventListener("click", populateAbout);
+aboutBtn.addEventListener("click", populateAbout);
